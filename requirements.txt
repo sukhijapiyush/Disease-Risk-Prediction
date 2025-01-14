@@ -1,0 +1,15 @@
+psycopg2-binary 
+bentoML
+pycaret
+mlflow
+evidently
+prometheus-client
+grafana-client
+pandas
+numpy
+flask
+fastapi
+gunicorn
+python-multipart
+matplotlib
+seaborn
