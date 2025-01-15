@@ -2,7 +2,7 @@ apache-airflow[celery]
 psycopg2-binary 
 bentoML
 pycaret[analysis,models,tuner,parallel,test]
-mlflow
+mlflow<=2.16.0
 evidently
 prometheus-client
 grafana-client
