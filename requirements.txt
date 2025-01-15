@@ -1,6 +1,7 @@
+apache-airflow[celery]
 psycopg2-binary 
 bentoML
-pycaret
+pycaret[analysis,models,tuner,parallel,test]
 mlflow
 evidently
 prometheus-client
@@ -13,3 +14,6 @@ gunicorn
 python-multipart
 matplotlib
 seaborn
+scikit-learn
+# umap-learn
+# dataprep
