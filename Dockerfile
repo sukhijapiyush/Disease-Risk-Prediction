@@ -4,6 +4,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 RUN pip uninstall multipart -y
 RUN pip install --extra-index-url=https://pypi.nvidia.com "cudf-cu12==24.12.*" "dask-cudf-cu12==24.12.*" "cuml-cu12==24.12.*"
+RUN pip install optuna plotly-resampler tune_sklearn
 USER root
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
